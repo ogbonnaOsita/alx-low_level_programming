@@ -5,7 +5,7 @@
  * Return: Always 1 (Success)
  */
 
-int _isalpha(letter)
+int _isalpha(int letter)
 {
-	return ((letter >= 'a'  && letter <= 'z' || (letter >= 'A' && letter <= 'Z'));
+	return ((letter >= 'a' && letter <= 'z' || (letter >= 'A' && letter <= 'Z'));
 			}
