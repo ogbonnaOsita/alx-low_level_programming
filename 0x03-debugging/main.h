@@ -4,7 +4,8 @@
 
 #include <stdio.h>
 /**
- * positive_or_negative - checks if a number is positive or negative
+ * positive_or_negative - checks 
+ * if a number is positive or negative
  * Return: Always 0 (Success)
  */
 void positive_or_negative(int i)
