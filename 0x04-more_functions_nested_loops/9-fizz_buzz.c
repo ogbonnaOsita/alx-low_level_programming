@@ -16,29 +16,29 @@ int main(void)
 	{
 		if (i % 3 == 0 && i % 5 != 0)
 		{
-			_puchar(' ');
-			_puchar('F');
-			_puchar('i');
-			_puchar('z');
-			_puchar('z');
+			_putchar(' ');
+			_putchar('F');
+			_putchar('i');
+			_putchar('z');
+			_putchar('z');
 		} else if (i % 5 == 0 && i % 3 != 0)
 		{
-			_puchar(' ');
-			_puchar('B');
-			_puchar('u');
-			_puchar('z');
-			_puchar('z');
+			_putchar(' ');
+			_putchar('B');
+			_putchar('u');
+			_putchar('z');
+			_putchar('z');
 		} else if (i % 3 == 0 && i % 5 == 0)
 		{
-			_puchar(' ');
-			_puchar('F');
-			_puchar('i');
-			_puchar('z');
-			_puchar('z');
-			_puchar('B');
-			_puchar('u');
-			_puchar('z');
-			_puchar('z');
+			_putchar(' ');
+			_putchar('F');
+			_putchar('i');
+			_putchar('z');
+			_putchar('z');
+			_putchar('B');
+			_putchar('u');
+			_putchar('z');
+			_putchar('z');
 			
 		} else
 		{
@@ -46,6 +46,6 @@ int main(void)
 			
 		}
 	}
-	printf("\n");
+	_putchar('\n');
 	return (0);
 }
