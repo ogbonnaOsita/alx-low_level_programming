@@ -39,11 +39,9 @@ int main(void)
 			_putchar('u');
 			_putchar('z');
 			_putchar('z');
-			
 		} else
 		{
-			_puchar(i);
-			
+			_putchar(i);
 		}
 	}
 	_putchar('\n');
