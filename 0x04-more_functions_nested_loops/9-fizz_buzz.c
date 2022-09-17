@@ -16,16 +16,34 @@ int main(void)
 	{
 		if (i % 3 == 0 && i % 5 != 0)
 		{
-			printf(" Fizz");
+			_puchar(' ');
+			_puchar('F');
+			_puchar('i');
+			_puchar('z');
+			_puchar('z');
 		} else if (i % 5 == 0 && i % 3 != 0)
 		{
-			printf(" Buzz");
+			_puchar(' ');
+			_puchar('B');
+			_puchar('u');
+			_puchar('z');
+			_puchar('z');
 		} else if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf(" FizzBuzz");
+			_puchar(' ');
+			_puchar('F');
+			_puchar('i');
+			_puchar('z');
+			_puchar('z');
+			_puchar('B');
+			_puchar('u');
+			_puchar('z');
+			_puchar('z');
+			
 		} else
 		{
-			printf(" %d", i);
+			_puchar(i);
+			
 		}
 	}
 	printf("\n");
