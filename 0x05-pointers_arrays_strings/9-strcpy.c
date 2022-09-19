@@ -2,6 +2,7 @@
 /**
  * *_strcpy - to copy the string pointed to by src
  * @dest: points to the buffer
+ * src: pointer to the string
  * Return: the value pointed to
  */
 
