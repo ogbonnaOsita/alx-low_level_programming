@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strcmp - it compares 2 strings
- * @sting1: the first string
+ * @string1: the first string
  * @string2: the second string
  * Return: 0 if string1 is less than string2
  * 0 if they are equal
