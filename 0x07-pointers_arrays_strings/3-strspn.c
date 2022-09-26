@@ -2,33 +2,31 @@
 /**
  * *_strspn - it gets the length of a prefix substring
  * @s: the string to evaluate
- * @accept: the string containing the list of chars to match in s
+ * @accept: the string containing a list of chars to match in s
  * Return: the number of bytes in the initial segment
  */
 
-unsigned int _strspn(char *s, char *accept)
+unsigned int *_strspn(char *s, char *accept)
 {
 	int i, j, k, flag;
 
-	k = 0;
+	f = 0;
 
-	for (i = 0; s[i] != '\0'; j++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
+		flag = 0;
 		for (j = 0; accept[j] != '\0'; j++)
 		{
-			flag = 0;
-
-		if (s[i] == accept[j])
-		{
-			k++;
-			flag = 1;
+			if (s[i] == accept[j])
+			{
+				k++;
+				flag = 1;
+			}
 		}
-
 		if (flag == 0)
 		{
-			return (f);
+			return (k);
 		}
 	}
-
 	return (0);
 }
