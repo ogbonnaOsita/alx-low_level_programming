@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * *_strspn - it gets the length of a prefix substring
+ * _strspn - it gets the length of a prefix substring
  * @s: the string to evaluate
  * @accept: the string containing a list of chars to match in s
  * Return: the number of bytes in the initial segment
  */
 
-unsigned int *_strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	int i, j, k, flag;
 
