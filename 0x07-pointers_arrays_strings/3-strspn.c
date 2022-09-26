@@ -14,14 +14,16 @@ unsigned int _strspn(char *s, char *accept)
 
 	for (i = 0; s[i] != '\0'; j++)
 	{
+		for (j = 0; accept[j] != '\0'; j++)
+		{
+			flag = 0;
+
 		if (s[i] == accept[j])
 		{
-			if (s[i] == accept[j])
-			{
-				k++;
-				flag = 1;
-			}
+			k++;
+			flag = 1;
 		}
+
 		if (flag == 0)
 		{
 			return (f);
